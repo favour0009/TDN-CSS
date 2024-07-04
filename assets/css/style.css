@@ -4,21 +4,37 @@ body{
     padding: 0;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
 }
 /* .Navbar styling start here */
 .wrapper{
     display: flex;
     justify-content: space-between;
-    /* gap: 10rem; */
+    gap: 2rem;
+    margin-bottom: -20px; 
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 30px;
 }
 .navlinks a{
     text-decoration: none;
     color: black;
-    gap: 1.5rem;
+    gap: 50px;
+}
+.navbutton a{
+    text-decoration: none;
+    color: black; 
+   background-color: teal;
+   display: inline-block;
+   border-radius: 10px;
+   padding-left: 20px;
+   padding-top: 10px;
+   padding-right: 10px;
+   padding-bottom: 20px;
+   margin-right: 20px;
 }
 .icon img{
-    width: 10rem;
+    width: 20rem;
 }
 .first {
     display: flex;
@@ -55,8 +71,19 @@ body{
     width: 50%;
 }
 .grid img{
-    width: 30rem;
+    width: 35rem;
     height: 100%;
-    border-radius: 5rem;
-    margin-top: 60px;
+    border-radius: 1.5rem;
+    margin-top: 65px; 
+}
+.second{
+    margin: 10rem;
+    padding: 10px;
+}
+.garri{
+    background-color: teal;
+    display: flex;
+    border-radius: 15px;
+    margin: 15px;
+    justify-content: space-between;
 }
