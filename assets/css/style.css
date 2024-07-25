@@ -231,6 +231,9 @@ header {
     text-align: left;
     padding-left: 3px;
 }
+.last ul img {
+    width: 20px;
+} 
 .last .dummy a {
     text-decoration: none;
     color: black;
